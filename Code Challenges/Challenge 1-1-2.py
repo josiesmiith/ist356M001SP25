@@ -1,0 +1,7 @@
+bill = input('Enter the check amount: ')
+tip = input('Enter the tip percentage: ')
+diner_num = input('Enter the number of diners: ')
+total = float(bill) + (float(bill) * (float(tip) /100))
+per_person = total / int(diner_num)
+print(f'Total amount: {total}')
+print(f'Amount per person: {per_person}')
